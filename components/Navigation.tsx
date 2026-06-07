@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Link from 'next/link'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 

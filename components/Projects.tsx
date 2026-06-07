@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 export default function Projects() {
     const projects = [
