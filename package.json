@@ -5,6 +5,8 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
+        "build-docs": "npm run build && node scripts/copyDocs.js",
+        "deploy": "npm run build-docs",
         "start": "next start",
         "lint": "next lint"
     },

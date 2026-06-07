@@ -36,17 +36,25 @@ export default function Contact() {
         {
             icon: FaPhone,
             title: 'Phone',
-            details: ['+254 746 432 933', '+254 753 695 331'],
+            details: [
+                { label: '+254 746 432 933', href: 'tel:+254746432933' },
+                { label: '+254 753 695 331', href: 'tel:+254753695331' },
+            ],
         },
         {
             icon: FaEnvelope,
             title: 'Email',
-            details: ['DOsystems13827@gmail.com'],
+            details: [
+                { label: 'DOsystems13827@gmail.com', href: 'mailto:DOsystems13827@gmail.com' },
+            ],
         },
         {
             icon: FaMapMarkerAlt,
             title: 'Company',
-            details: ['DOsystems.co.ke', 'Kenya'],
+            details: [
+                { label: 'DOsystems.co.ke', href: 'https://dosystems.co.ke' },
+                { label: 'Kenya', href: 'https://www.google.com/maps/search/Kenya' },
+            ],
         },
     ]
 
@@ -89,9 +97,15 @@ export default function Contact() {
                             <h3 className="text-xl font-bold mb-3">{info.title}</h3>
                             <div className="space-y-2">
                                 {info.details.map((detail, idx) => (
-                                    <p key={idx} className="text-gray-400">
-                                        {detail}
-                                    </p>
+                                    <a
+                                        key={idx}
+                                        href={detail.href}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-gray-400 hover:text-electric-blue transition-colors block"
+                                    >
+                                        {detail.label}
+                                    </a>
                                 ))}
                             </div>
                         </motion.div>

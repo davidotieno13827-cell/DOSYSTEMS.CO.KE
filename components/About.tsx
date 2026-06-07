@@ -1,15 +1,15 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { FaBasketballBall, FaBicycle, FaPython, FaCode, FaBrain } from 'react-icons/fa'
+import { FaPython, FaCode, FaBrain, FaLaptop, FaChartLine } from 'react-icons/fa'
 
 export default function About() {
     const skills = [
-        { icon: FaBrain, label: 'AI/ML', color: 'text-electric-blue' },
-        { icon: FaPython, label: 'Python', color: 'text-neon-purple' },
-        { icon: FaCode, label: 'Web Dev', color: 'text-neon-pink' },
-        { icon: FaBasketballBall, label: 'Basketball', color: 'text-electric-blue' },
-        { icon: FaBicycle, label: 'Cycling', color: 'text-neon-purple' },
+        { icon: FaBrain, label: 'AI/ML Engineering', color: 'text-electric-blue' },
+        { icon: FaPython, label: 'Python Development', color: 'text-neon-purple' },
+        { icon: FaCode, label: 'Full Stack Web', color: 'text-neon-pink' },
+        { icon: FaLaptop, label: 'Cloud & Backend', color: 'text-electric-blue' },
+        { icon: FaChartLine, label: 'Data Analytics', color: 'text-neon-purple' },
     ]
 
     return (
@@ -45,17 +45,18 @@ export default function About() {
                         className="space-y-6"
                     >
                         <p className="text-gray-300 text-lg leading-relaxed">
-                            I'm a passionate Project Manager and developer venturing into AI/ML with a strong foundation in web development.
-                            I've successfully built professional websites including <strong>siromish.co.ke</strong> and <strong>dejarautospares.co.ke</strong>.
+                            I help businesses launch high-impact websites and AI-powered solutions with a focus on speed, reliability, and measurable growth.
+                            I have delivered professional sites like <strong>siromish.co.ke</strong> and <strong>dejarautospares.co.ke</strong>.
                         </p>
                         <p className="text-gray-300 text-lg leading-relaxed">
-                            Currently pursuing AI and Machine Learning courses to enhance my expertise. My goal is to deliver innovative solutions
-                            that combine cutting-edge AI technology with beautifully designed web experiences.
+                            I combine web development with AI/ML strategy to improve conversions, automate workflows, and reduce manual effort for busy teams.
+                            My work is built to look premium and perform effectively.
                         </p>
-                        <p className="text-gray-300 text-lg leading-relaxed">
-                            When I'm not coding, you'll find me on the basketball court or cycling through scenic routes. I believe in work-life balance
-                            and continuous learning.
-                        </p>
+                        <div className="grid gap-3 mt-6 text-gray-300 text-lg leading-relaxed">
+                            <p>• Designed websites that improve user trust and lead generation.</p>
+                            <p>• Built AI models and analytics tools to help businesses make smarter decisions.</p>
+                            <p>• Delivered responsive solutions with fast load times and strong UX.</p>
+                        </div>
                     </motion.div>
 
                     {/* Right Side - Skills */}

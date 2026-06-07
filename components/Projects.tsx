@@ -21,19 +21,19 @@ export default function Projects() {
         },
         {
             title: 'Predictive Analytics Dashboard',
-            description: 'Real-time data analytics dashboard using machine learning for business insights and forecasting.',
+            description: 'Real-time analytics dashboard that turned business data into actionable insights for faster decision-making.',
             technologies: ['Python', 'Machine Learning', 'Matplotlib'],
             type: 'AI/ML Project',
         },
         {
             title: 'Customer Behavior AI Model',
-            description: 'Machine learning model for predicting customer behavior and improving retention strategies.',
+            description: 'Predictive model that helped improve customer retention and identify high-value audience segments.',
             technologies: ['Python', 'TensorFlow', 'Scikit-learn'],
             type: 'AI/ML Project',
         },
         {
             title: 'Automated Data Processing System',
-            description: 'Intelligent system for automated data collection, processing, and analysis with AI optimization.',
+            description: 'Automated pipeline for data ingestion, cleansing, and analysis to streamline reporting workflows.',
             technologies: ['Python', 'AI/ML', 'APIs'],
             type: 'AI/ML Project',
         },

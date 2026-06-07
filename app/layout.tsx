@@ -8,6 +8,14 @@ export const metadata: Metadata = {
     authors: [{ name: 'David Otieno', url: 'https://dosystems.co.ke' }],
     viewport: 'width=device-width, initial-scale=1',
     robots: 'index, follow',
+    openGraph: {
+        title: 'DOsystems - AI/ML Solutions & Web Development',
+        description: 'Professional AI/ML projects, web development services, and consulting solutions by David Otieno',
+        siteName: 'DOsystems',
+        type: 'website',
+        locale: 'en_US',
+        url: 'https://davidotieno13827-cell.github.io/DOSYSTEMS.CO.KE/',
+    },
 }
 
 export default function RootLayout({
