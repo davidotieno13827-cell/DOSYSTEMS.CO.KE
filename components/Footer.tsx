@@ -10,7 +10,7 @@ export default function Footer() {
         { icon: FaGithub, href: 'https://github.com/davidotieno13827-cell', label: 'GitHub' },
         { icon: FaLinkedin, href: 'https://www.linkedin.com/in/david-otieno-b0b660343', label: 'LinkedIn' },
         { icon: FaTwitter, href: 'https://twitter.com/_missing_donor', label: 'Twitter' },
-        { icon: FaInstagram, href: 'https://www.instagram.com/_dave.e0/', label: 'Instagram' },
+        { icon: FaInstagram, href: 'https://www.instagram.com/_dav.e0/', label: 'Instagram' },
         { icon: FaFacebook, href: 'https://www.facebook.com/profile.php?id=100067929454892', label: 'Facebook' },
     ]
 
